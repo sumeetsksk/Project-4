@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS\style.css" type="text/css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Skill Safari | Rock, Paper, Scissors</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="score-panel">
+            <div class="score-title">
+                <h1 style="font-weight: 700;">Rock <br>paper <br> Scissors</h1>
+            </div>
+            <div class="scoreboard">
+                <div class="score-label">Score</div>
+                <div class="score-value">
+                    <h1 class="value">0</h1>
+                </div>
+            </div>
+        </div>
+        <div class="game-options">
+            <div id="paper" class="button" style="margin-left: 10px"><span><img src="images/icon-paper.svg" alt="paper"></span></div>
+            <div id="scissors" class="button"><span><img src="images/icon-scissors.svg" alt="scissors"></span></div>
+            <div id="rock" class="button" style="margin-top: 20px;"><span><img src="images/icon-rock.svg" alt="rock"></span></div>
+        </div>
+        <div class="result-container">
+            <div class="player">
+                <div class="player-status ">
+                    <h1>You Picked</h1>
+                </div>
+                <div id="player"><span id="game-1"><img src="images/icon-paper.svg" alt="paper" id="user"></span></div>
+            </div>
+            <div class="computer ">
+                <div class="computer-status ">
+                    <h1>The House Picked</h1>
+                </div>
+                <div class="invisible">
+                    <div id="computer"><span id="game-2"><img src="images/icon-rock.svg" alt="rock" id="machine"></span></div>
+                </div>
+            </div>
+            <div class="result-title">
+                <div>
+                    <h1 id="status">You win</h1>
+                </div>
+                <div class="play-again">Play Again</div>
+            </div>
+        </div>
+        <div class="rules" style="margin-top: -30px; font-weight: 600;">Rules</div>
+        <div class="rules-overlay">
+            <div class="rules-container">
+                <div class="rules-title">Rules</div>
+                <div class="cross-btn">
+                    <img src="images/icon-close.svg" alt="close">
+                </div>
+                <div class="rules-img"><img src="images/image-rules.svg" alt="rules"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+
+
+</body>
+<script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous "></script>
+
+</html>
